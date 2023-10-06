@@ -1,0 +1,26 @@
+#!/bin/sh
+#################################################################
+##### File changed for RT-AX... router                      #####
+##### Checked RT-AX86U > KPN IPTV + internet : OK           #####
+#################################################################
+
+#################################################################
+##### Add VLAN4 as a physical interface (@ WAN PORT)
+##### RT-AX86U (ter info)
+#####  |
+#####  |\_eth0 = WAN poort 1
+#####  |\_eth1 = LAN poort 4
+#####  |\_eth2 = LAN poort 3
+#####  |\_eth3 = LAN poort 2
+#####  |\_eth4 = LAN poort 1
+#####  |\_eth5 = LAN 2.5G
+#####  |\_eth6 = Wifi 2.4 Ghz
+#####   \_eth7 = Wifi 5   Ghz
+
+/sbin/vconfig add eth0 4
+
+#################################################################
+##### Request an IP-address and setup static routes
+
+sleep 1
+udhcpc -i vlan4 --clientid-none -O msstaticroutes -O staticroutes -V IPTV_RG -s /jffs/scripts/vlan4.script -p /var/run/vlan4.pid -b -O33 -O249
