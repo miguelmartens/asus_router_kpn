@@ -30,7 +30,7 @@ My journey to finding a suitable replacement for the KPN Experiabox led me to re
 - **VLAN Support**: Essential for network segmentation.
 - **Third-Party Firmware Compatibility**: Compatible with [Asuswrt-Merlin](https://www.asuswrt-merlin.net/), offering enhanced functionality.
 
-![ASUS RT-AX86U Pro](https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax86u-pro/)
+[ASUS RT-AX86U Pro](https://www.asus.com/networking-iot-servers/wifi-routers/asus-gaming-routers/rt-ax86u-pro/)
 
 However, we encountered an unexpected challenge: getting IPTV to work seamlessly. To address this issue, we conducted extensive research on various sites and forums, and here's what we discovered...
 
