@@ -1,0 +1,2 @@
+dhcp-option=60,IPTV_RG
+dhcp-option=28,<IP>

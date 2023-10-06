@@ -1,0 +1,45 @@
+#################################################################
+##### Add VLAN4 as a physical interface (@ WAN PORT)
+##### RT-AX86U (ter info)
+#####  |
+#####  |\_eth0 = WAN poort 1
+#####  |\_eth1 = LAN poort 4
+#####  |\_eth2 = LAN poort 3
+#####  |\_eth3 = LAN poort 2
+#####  |\_eth4 = LAN poort 1
+#####  |\_eth5 = LAN 2.5G
+#####  |\_eth6 = Wifi 2.4 Ghz
+#####   \_eth7 = Wifi 5   Ghz
+#################################################################
+##### RT-AX58U (ter info)
+#####  |
+#####  |\_eth0 = LAN poort 4
+#####  |\_eth1 = LAN poort 3
+#####  |\_eth2 = LAN poort 2
+#####  |\_eth3 = LAN poort 1
+#####  |\_eth4 = WAN poort
+#####  |\_eth5 = Wifi 2.4 Ghz
+#####   \_eth6 = Wifi 5   Ghz
+#################################################################
+##### RT-AX88U (ter info)
+#####  |
+#####  |\_eth0 = WAN poort
+#####  |\_eth1 = LAN poort 4
+#####  |\_eth2 = LAN poort 3
+#####  |\_eth3 = LAN poort 2
+#####  |\_eth4 = LAN poort 1
+#####  |\_eth5 = Bridge of LAN 5-8
+#####  |\_eth6 = Wifi 2.4 Ghz
+#####   \_eth7 = Wifi 5 Ghz
+#################################################################
+##### GT-AX11000 (ter info)
+#####  |
+#####  |\_eth0 = WAN / 2.5G poort
+#####  |\_eth1 = LAN poort 4
+#####  |\_eth2 = LAN poort 3
+#####  |\_eth3 = LAN poort 2
+#####  |\_eth4 = LAN poort 1
+#####  |\_eth5 = Bridge 2.5G
+#####  |\_eth6 = Wifi 2.4 Ghz
+#####  |\_eth7 = Wifi 5 Ghz 1
+#####   \_eth8 = Wifi 5 Ghz 2
