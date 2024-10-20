@@ -45,18 +45,21 @@ When editing the files using tools like VSCode or Notepad++, make sure that the 
 ## Documentation Sources
 
 ### General
+
 - [Asuswrt-Merlin](https://www.asuswrt-merlin.net/)
 - [Netwerkje - Eigen Router](https://netwerkje.com/eigen-router)
 - [Netwerkje - Routed IPTV](https://netwerkje.com/routed-iptv)
 - [Tweakers Main Forum](https://gathering.tweakers.net/forum/list_messages/1772709/0)
 
 ### Specific
+
 - [Guide for AX routers](https://gathering.tweakers.net/forum/list_message/63414488#63414488)
 - [Files for 4-port router](https://bashoogers.nl/tweakers/ASUS_SCRIPTS_NOVOIP.rar)
 - [Manual for setting up an ASUS router with KPN network](https://bashoogers.nl/tweakers/V4_HANDLEIDING_EIGENROUTERKPN.pdf)
 - [Inspiring repo with configuration and guide for an ASUS RT-AC88U](https://github.com/zmoox/ASUS_KPN_IPTV)
 
 ### Research for My Use Case
+
 - [Tweakers Forum Post 1](https://gathering.tweakers.net/forum/list_messages/1772709/35)
 - [Tweakers Forum Post 2](https://gathering.tweakers.net/forum/list_messages/1772709/36)
 - [Tweakers Forum Post 3](https://gathering.tweakers.net/forum/list_messages/1772709/37)
@@ -73,9 +76,11 @@ Make sure to carefully read through the steps before configuring!
 Before proceeding with the setup, ensure that the router has only the WAN cable inserted into the WAN port on the back.
 
 ### Internet Access
+
 Follow steps 2 and 5 from the [guide](https://bashoogers.nl/tweakers/V4_HANDLEIDING_EIGENROUTERKPN.pdf). Additionally, take a look at step 1 of the written [manual](https://github.com/zmoox/ASUS_KPN_IPTV/blob/main/README.md).
 
 ### Routed IPTV
+
 Now, let's set up the configuration for IPTV.
 
 Before starting, clone this repository or download the 'routers' directory/folder to your device.
@@ -112,4 +117,7 @@ Follow these steps to set up your IPTV:
 If everything is configured correctly, you should now have a working IPTV setup!
 
 ## Conclusion
+
 This guide aims to provide a comprehensive overview of setting up IPTV on an ASUS router. We hope that this guide will help you configure your router successfully. If you encounter any issues, please refer to the documentation sources or reach out to the community for assistance.
+
+test
